@@ -2,10 +2,12 @@
 //
 
 #include "stdafx.h"
-
+#include "Engine.h"
 
 int main()
 {
-    return 0;
+	Engine eg;
+	eg.start();
+	return 0;
 }
 
